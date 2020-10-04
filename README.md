@@ -1,7 +1,7 @@
 # Teste Topi
 
 
-Logo abaixo está algumas especificações, principalmente relacionado ao Objeto .
+Logo abaixo estão algumas especificações, principalmente relacionado ao Objeto .
 
 # Custom Objects
 
@@ -44,7 +44,7 @@ System.schedule('Get List Github', '0 0 6 ? * *',
 new SchedulableGit_Repositorie(null));
 ```
 
-Se preferir pode rodar esse que roda no mesmo dia uma vez no prazo de 10 minuto e fica programando para o dia seguinte no mesmo horário.
+Se preferir pode rodar esse que roda no mesmo dia uma vez no prazo de 10 minutos e fica programando para o dia seguinte no mesmo horário.
 ```sh
 String hour = String.valueOf(Datetime.now().hour());
 String min = String.valueOf(Datetime.now().minute() + 10); 
